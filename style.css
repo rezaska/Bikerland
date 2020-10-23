@@ -1,0 +1,98 @@
+/*Squash 
+#F2A11C
+
+Darker gery
+#1F2022
+
+Dark grey
+#4A4A4A
+
+White
+#FFFFFF
+
+Light grey
+#F4F4F4
+---------------
+Heading text(Bikerland)
+Pacifico, regular, 130px
+center
+
+Heading text (about us, our mission, meet alissa)
+pacifico, regular, 42px
+
+Body text
+Catamaran, Regular, 20px
+Line height: 29px
+
+Button text
+Catamaran, bold, 18px
+Center, Line height: 29px
+
+*/
+
+body{
+    margin: 50px;
+}
+
+ul li{
+    float: left;
+    list-style-type: none;
+    padding: 30px;
+}
+
+li a{
+    color: white;
+}
+
+.nav{
+    position: absolute;
+    display: block;
+    left: 30%;
+}
+
+.clearfix:after{
+    visibility: hidden; 
+    display: block; 
+    font-size: 0; 
+    content:''; 
+    clear: both; 
+    height: 0;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    color: #F2A11C;
+    font-style: normal;
+    font-family:'pacifico';
+    font-size: 40px;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.social-media{
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+.social-media a{
+    color: #F2A11C;
+
+}
+
+a:link {
+  text-decoration: none;
+  font-family:'catamaran';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 29px;
+Center,
+}
