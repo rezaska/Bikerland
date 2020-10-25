@@ -67,7 +67,8 @@ li a{
 }
 
 img{
-
+    max-width: 100%;
+    height: auto;
 }
 
 h1{
@@ -76,6 +77,7 @@ h1{
     font-family:'pacifico';
     font-size: 130px;
     text-align: center;
+    padding-top: 150px;
 }
 
 h2{
@@ -99,7 +101,11 @@ p{
 }
 
 .main-text{
+    box-sizing: border-box;
     padding: 50px;
+    width: 50%;
+    float: left;
+    height: 500px;
 }
 
 .side-image{
@@ -114,12 +120,8 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
-    float: left;
-    height: 500px;
-}
-
-#mission{
     float: right;
+    height: 500px;
 }
 
 .side-image-back2{
@@ -134,10 +136,11 @@ p{
 
 .container{
     background-color: white;
-    width: 50%;
-    float: left;
+    /* width: 50%; */
+    /* float: left; */
     height: 500px;
     /* padding: 50px; */
+    box-sizing: border-box;
 }
 
 
@@ -145,10 +148,12 @@ p{
 .alissa{
     max-width: 20%;
     float: left;
+    padding-left: 100px;
 }
 
 .alissa-text{
-    padding: 50px;
+    padding-left: 500px;
+    padding-right: 100px;
 }
 
 .alissa-section{
@@ -156,7 +161,8 @@ p{
 }
 
 .meet-alissa{
-    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 button{
@@ -174,7 +180,7 @@ button{
     background-color: transparent;
     width: 130px;
     font-size: 18px;
-
+    padding: 100px;
 }
 
 .fas{
@@ -185,7 +191,7 @@ button{
     width: 30px;
     position: absolute;
     top: 40%;
-    left: 90%;
+    right: 120px;
 }
 
 .social-media a{
@@ -212,7 +218,7 @@ a:link {
 }
 
 .icons{
-
+    padding-top: 100px;
 }
 
 .products,
@@ -228,12 +234,12 @@ a:link {
 }
 
 .gram-image{
-    width: 25%;
-    float: left;
+    width: 30%;
+    padding: 15px;
 }
 
 .gram-container{
-    max-height: 500px;
+    text-align: center;
 }
 
 .fa-bicycle,
@@ -250,6 +256,9 @@ a:link {
     line-height: 29px;
 }
 
+.nav{
+    text-align: center;
+}
 
 .footer{
     position: relative;
@@ -264,7 +273,13 @@ a:link {
 }
 
 .contact-info{
-    display: inline-block;
+    float: left;
+    padding-left: 15px;
+}
+
+.subscription{
+    float: right;
+    padding: 15px;
 }
 
 .sub-button{
@@ -273,6 +288,7 @@ a:link {
     font-family: 'catamaran';
     font-weight: 700;
     font-size: 18px;
+    height: 42px;
 }
 
 form{
@@ -282,10 +298,22 @@ form{
     font-weight: 500;
 }
 
+input{
+    font-family: 'catamaran';
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 30px;
+    border: none;
+    height: 40px;
+    width: 400px;
+}
+
 .copyrightfooter{
     background-color: #1F2022;
 }
 
 .copyright{
     color: #4A4A4A;
+    text-align: center;
+    
 }
