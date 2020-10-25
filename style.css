@@ -1,34 +1,4 @@
-/*Squash 
-#F2A11C
 
-Darker gery
-#1F2022
-
-Dark grey
-#4A4A4A
-
-White
-#FFFFFF
-
-Light grey
-#F4F4F4
----------------
-Heading text(Bikerland)
-Pacifico, regular, 130px
-center
-
-Heading text (about us, our mission, meet alissa)
-pacifico, regular, 42px
-
-Body text
-Catamaran, Regular, 20px
-Line height: 29px
-
-Button text
-Catamaran, bold, 18px
-Center, Line height: 29px
-
-*/
 
 body{
     margin-left: 100px;
@@ -50,7 +20,6 @@ body{
 ul li{
     display: inline-block;
     padding: 30px;
-
 }
 
 li a{
@@ -64,6 +33,13 @@ li a{
     content:''; 
     clear: both; 
     height: 0;
+}
+
+.hamburger-menu{
+    display: none;
+    color: white;
+    float: right;
+    padding: 30px 30px 0 0;
 }
 
 img{
@@ -136,14 +112,9 @@ p{
 
 .container{
     background-color: white;
-    /* width: 50%; */
-    /* float: left; */
     height: 500px;
-    /* padding: 50px; */
     box-sizing: border-box;
 }
-
-
 
 .alissa{
     max-width: 20%;
@@ -163,6 +134,17 @@ p{
 .meet-alissa{
     padding-top: 50px;
     padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.link{
+    color: #F2A11C;
+}
+
+.link-box{
+    display: inline-block;
+    padding: 30px;
+    max-width: 100px;
 }
 
 button{
@@ -175,6 +157,10 @@ button{
     line-height: 29px;
     padding: 5px 25px;
 }
+
+/* *{
+    border: 1px solid red;
+} */
 
 .btn{
     background-color: transparent;
@@ -196,16 +182,14 @@ button{
 
 .social-media a{
     color: #F2A11C;
-
 }
 
 a:link {
-  text-decoration: none;
-  font-family:'catamaran';
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 29px;
-/* Center */
+    text-decoration: none;
+    font-family:'catamaran';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
 }
 
 .middle-links{
@@ -218,7 +202,8 @@ a:link {
 }
 
 .icons{
-    padding-top: 100px;
+    padding-top: 130px;
+
 }
 
 .products,
@@ -298,6 +283,10 @@ form{
     font-weight: 500;
 }
 
+.form-control input {
+    width: 80%;
+}
+
 input{
     font-family: 'catamaran';
     font-size: 20px;
@@ -314,6 +303,113 @@ input{
 
 .copyright{
     color: #4A4A4A;
-    text-align: center;
-    
+    text-align: center; 
+}
+
+
+@media (max-width:1200px){
+
+    body{
+
+    }
+    .header{
+        background-image: url(images/image-1-mobile@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container{
+        height: auto;
+    }
+
+    .main-text{
+        width: auto;
+        text-align: center;
+        height: auto;
+    }
+
+    .side-image-back1,
+    .side-image-back2{
+        float: none;
+        width: auto;
+    }
+
+    .alissa{
+        float: none;
+        max-width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    .alissa-text{
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    img{
+        height: 100%; 
+        width: 100%; 
+        object-fit: contain
+    }
+
+    .main-text{
+        float: none;
+    }
+
+    .menu,
+    .social-media{
+        display: none;
+    }
+
+    h1{
+        font-size: 10vw;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer-text{
+        max-width: none;
+    }
+
+    .contact-info,
+    .subscription{
+        float: none;
+    }
+
+    .contact-info{
+        padding-left: none;
+    }
+
+    .sub-button{
+        margin-top: 10px;
+        width: auto;
+    }
+
+    input{
+        width: auto;
+    }
+
+    .middle-links{
+        height: 100%;
+    }
+
+    .icons{
+        padding-top: 25px;
+    }
+
+}
+
+@media (max-width:700px){
+    .link-box{
+        display: block;
+        margin: auto;
+    }
 }
