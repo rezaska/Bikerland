@@ -31,23 +31,30 @@ Center, Line height: 29px
 */
 
 body{
-    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header{
+    background-image: url(images/image-1.jpg);
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    text-align: center;
 }
 
 ul li{
-    float: left;
-    list-style-type: none;
+    display: inline-block;
     padding: 30px;
+
 }
 
 li a{
-    color: white;
-}
-
-.nav{
-    position: absolute;
-    display: block;
-    left: 30%;
+  color: white;
 }
 
 .clearfix:after{
@@ -60,26 +67,124 @@ li a{
 }
 
 img{
-    width: 100%;
+
 }
 
 h1{
     color: #F2A11C;
     font-style: normal;
     font-family:'pacifico';
-    font-size: 40px;
+    font-size: 130px;
+    text-align: center;
 }
 
-.centered{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+h2{
+    font-family: 'pacifico';
+    font-style: normal;
+    font-size: 42px;
+}
+
+h3{
+   font-family: 'pacifico';
+   font-style: normal;
+   color: #F2A11C;
+   font-weight: 500;
+   font-size: 24px; 
+}
+
+p{
+    font-family: 'catamaran';
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.main-text{
+    padding: 50px;
+}
+
+.side-image{
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+.side-image-back1{
+    background-image: url(images/image-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+#mission{
+    float: right;
+}
+
+.side-image-back2{
+    background-image: url(images/image-7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+.container{
+    background-color: white;
+    width: 50%;
+    float: left;
+    height: 500px;
+    /* padding: 50px; */
+}
+
+
+
+.alissa{
+    max-width: 20%;
+    float: left;
+}
+
+.alissa-text{
+    padding: 50px;
+}
+
+.alissa-section{
+    background-color: #F4F4F4;
+}
+
+.meet-alissa{
+    padding-left: 50px;
+}
+
+button{
+    background-color: #1F2022;
+    border: none;
+    color: #F2A11C;
+    font-family: 'catamaran';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 29px;
+    padding: 5px 25px;
+}
+
+.btn{
+    background-color: transparent;
+    width: 130px;
+    font-size: 18px;
+
+}
+
+.fas{
+    font-size: 40px;
 }
 
 .social-media{
     width: 30px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 90%;
 }
 
@@ -94,5 +199,93 @@ a:link {
   font-weight: bold;
   font-size: 18px;
   line-height: 29px;
-Center,
+/* Center */
+}
+
+.middle-links{
+    background-image: url(images/image-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+}
+
+.icons{
+
+}
+
+.products,
+.community,
+.reach-out{
+    display: inline;
+}
+
+
+
+.images{
+
+}
+
+.gram-image{
+    width: 25%;
+    float: left;
+}
+
+.gram-container{
+    max-height: 500px;
+}
+
+.fa-bicycle,
+.fa-users,
+.fa-phone{
+    color: white;
+}
+
+.middle-text{
+    font-family: 'catamaran';
+    font-weight: bold;
+    font-size: 18px;
+    color: #F2A11C;
+    line-height: 29px;
+}
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    background-color: #1F2022;
+}
+
+.footer-text{
+    color: #F4F4F4;
+    max-width: 270px;
+}
+
+.contact-info{
+    display: inline-block;
+}
+
+.sub-button{
+    background-color: #F2A11C;
+    color: #1F2022;
+    font-family: 'catamaran';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+form{
+    color: #F4F4F4;
+    font-family: 'catamaran';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.copyrightfooter{
+    background-color: #1F2022;
+}
+
+.copyright{
+    color: #4A4A4A;
 }
