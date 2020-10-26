@@ -1,10 +1,3 @@
-
-
-body{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
 .header{
     background-image: url(images/image-1.jpg);
     height: 900px;
@@ -19,7 +12,7 @@ body{
 
 ul li{
     display: inline-block;
-    padding: 30px;
+    padding: 20px;
 }
 
 li a{
@@ -117,14 +110,14 @@ p{
 }
 
 .alissa{
-    max-width: 20%;
+    width: 25%;
     float: left;
-    padding-left: 100px;
 }
 
 .alissa-text{
-    padding-left: 500px;
-    padding-right: 100px;
+    width: 70%;
+    float: left;
+    padding-left: 50px;
 }
 
 .alissa-section{
@@ -132,8 +125,7 @@ p{
 }
 
 .meet-alissa{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
     overflow: hidden;
 }
 
@@ -170,14 +162,14 @@ button{
 }
 
 .fas{
-    font-size: 40px;
+    font-size: 48px;
 }
 
 .social-media{
     width: 30px;
     position: absolute;
-    top: 40%;
-    right: 120px;
+    top: 35%;
+    right: 50px;
 }
 
 .social-media a{
@@ -243,6 +235,7 @@ a:link {
 
 .nav{
     text-align: center;
+    padding-top: 40px;
 }
 
 .footer{
@@ -259,12 +252,13 @@ a:link {
 
 .contact-info{
     float: left;
-    padding-left: 15px;
+    width: 40%;
+    padding-left: 5%;
 }
 
 .subscription{
     float: right;
-    padding: 15px;
+    width: 50%;
 }
 
 .sub-button{
@@ -283,18 +277,13 @@ form{
     font-weight: 500;
 }
 
-.form-control input {
-    width: 80%;
-}
-
 input{
     font-family: 'catamaran';
     font-size: 20px;
     font-weight: 500;
-    padding-left: 30px;
     border: none;
     height: 40px;
-    width: 400px;
+    width: auto;
 }
 
 .copyrightfooter{
@@ -309,9 +298,6 @@ input{
 
 @media (max-width:1200px){
 
-    body{
-
-    }
     .header{
         background-image: url(images/image-1-mobile@2x.jpg);
         background-position: center;
@@ -336,13 +322,11 @@ input{
 
     .alissa{
         float: none;
-        max-width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
-
+        width: 100%;
     }
 
     .alissa-text{
+        width: auto;
         padding-left: 30px;
         padding-right: 30px;
         text-align: center;
@@ -358,6 +342,11 @@ input{
         float: none;
     }
 
+    .link-box{
+        display: block;
+        margin: auto;
+    }    
+
     .menu,
     .social-media{
         display: none;
@@ -371,30 +360,41 @@ input{
         display: block;
     }
 
+    .gram-image{
+        width: 40%;
+        padding: 15px;
+    }
+
+    #that-image{
+        display: none;
+    }
+
     .footer{
         text-align: center;
     }
 
     .footer-text{
         max-width: none;
+        padding: 30px;
     }
 
     .contact-info,
     .subscription{
         float: none;
+        width: 100%;
     }
 
     .contact-info{
-        padding-left: none;
+        padding-left: 0.5%;
     }
 
     .sub-button{
         margin-top: 10px;
-        width: auto;
+        width: 80%;
     }
 
-    input{
-        width: auto;
+    .form-control input {
+    width: 80%;
     }
 
     .middle-links{
@@ -405,11 +405,4 @@ input{
         padding-top: 25px;
     }
 
-}
-
-@media (max-width:700px){
-    .link-box{
-        display: block;
-        margin: auto;
-    }
 }
