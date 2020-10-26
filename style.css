@@ -150,17 +150,6 @@ button{
     padding: 5px 25px;
 }
 
-/* *{
-    border: 1px solid red;
-} */
-
-.btn{
-    background-color: transparent;
-    width: 130px;
-    font-size: 18px;
-    padding: 100px;
-}
-
 .fas{
     font-size: 48px;
 }
@@ -195,19 +184,12 @@ a:link {
 
 .icons{
     padding-top: 130px;
-
 }
 
 .products,
 .community,
 .reach-out{
     display: inline;
-}
-
-
-
-.images{
-
 }
 
 .gram-image{
@@ -295,9 +277,8 @@ input{
     text-align: center; 
 }
 
-
 @media (max-width:1200px){
-
+    
     .header{
         background-image: url(images/image-1-mobile@2x.jpg);
         background-position: center;
@@ -404,5 +385,4 @@ input{
     .icons{
         padding-top: 25px;
     }
-
 }
